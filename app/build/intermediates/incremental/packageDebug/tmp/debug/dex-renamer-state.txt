@@ -1,0 +1,4 @@
+#Fri Jan 11 22:53:18 ICT 2019
+base.0=D\:\\STUDY\\android\\final_project\\itnlmobile\\bookreading\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

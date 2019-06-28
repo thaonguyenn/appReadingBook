@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.usermanager.Thongtin">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+
+        <LinearLayout
+            android:id="@+id/hinhnen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp">
+
+                    <ImageView
+                        android:id="@+id/hinhnendep"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:src="@drawable/hinhnen" />
+
+                    <ImageView
+                        android:id="@+id/avatardep"
+                        android:layout_width="200px"
+                        android:layout_height="200px"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerInParent="true"
+
+                        tools:srcCompat="@drawable/ava" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="0dp">
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tentk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="15130016@st.hcmuaf.edu.vn"
+                    android:textSize="25sp"
+                    android:textColor="@color/app_bar_background"
+                    />
+///////////
+<TextView
+    android:id="@+id/tx2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="(Bạn có thể kiểm tra thông tin và thay đổi
+    thông tin theo ý bạn trong những biểu trượng bên dưới!)"
+    android:textSize="20sp"
+    android:gravity="center"
+
+
+
+    />
+                /////////
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:id="@+id/formsukien"
+            android:layout_weight="10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="70dp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <Button
+                android:id="@+id/bttrove"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/app_bar_background"
+                android:text="@string/btn_back"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:layout_marginBottom="50dp"
+                />
+<TextView
+    android:id="@+id/tieude"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="50dp"
+    />
+
+            <EditText
+                android:id="@+id/old_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_email"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/new_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_new_email"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:imeActionId="@+id/login"
+                android:imeOptions="actionUnspecified"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:singleLine="true"
+                tools:ignore="InvalidImeActionId" />
+
+            <EditText
+                android:id="@+id/newPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:hint="@string/new_pass"
+                android:imeActionId="@+id/login"
+                android:imeOptions="actionUnspecified"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:singleLine="true"
+                tools:ignore="InvalidImeActionId" />
+
+            <Button
+                android:id="@+id/changeEmail"
+                style="?android:textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@color/app_bar_background"
+                android:text="@string/btn_change"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+
+
+            <Button
+                android:id="@+id/changePass"
+                style="?android:textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@color/app_bar_background"
+                android:text="@string/btn_change"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/send"
+                style="?android:textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@color/app_bar_background"
+                android:text="@string/btn_send"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/remove"
+                style="?android:textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@color/app_bar_background"
+                android:text="@string/btn_remove"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/change_email_button"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/change_email"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/change_password_button"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/change_password"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/sending_pass_reset_button"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/send_password_reset_email"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/remove_user_button"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/remove_user"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/sign_out"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@color/app_bar_background"
+                android:text="@string/btn_sign_out"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/h1"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="3"
+                android:src="@drawable/icons_h1" />
+
+            <ImageView
+                android:id="@+id/h2"
+
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="3"
+                android:src="@drawable/icons_h2" />
+
+            <ImageView
+                android:id="@+id/h3"
+
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="3"
+                android:maxWidth="50dp"
+                android:src="@drawable/icons_h3" />
+
+            <ImageView
+                android:id="@+id/h4"
+
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="3"
+                android:src="@drawable/icons_xoa" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

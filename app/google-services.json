@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "121768232977",
+    "firebase_url": "https://bookreading-5a305.firebaseio.com",
+    "project_id": "bookreading-5a305",
+    "storage_bucket": "bookreading-5a305.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121768232977:android:3bd02cc607288af9",
+        "android_client_info": {
+          "package_name": "itnl.app.com.bookreading"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121768232977-l9eac32tr4dd04ek79s8ak5p3mu90fgc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "itnl.app.com.bookreading",
+            "certificate_hash": "75756a549b1f8bc032e5148af13a5a619622420e"
+          }
+        },
+        {
+          "client_id": "121768232977-jtsodhjr375r8sipkfeaa8p55i8ssuhk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMaZhpv1G3_OkOBVSadh_sLijLNUfOu5U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121768232977-jtsodhjr375r8sipkfeaa8p55i8ssuhk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
